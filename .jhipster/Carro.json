@@ -1,0 +1,40 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "tipoCarro",
+            "otherEntityName": "tipoCarro",
+            "relationshipType": "many-to-one",
+            "relationshipValidateRules": [
+                "required"
+            ],
+            "otherEntityField": "codigo"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "codigo",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "descricao",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dataCriacao",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "dataAtualizacao",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "changelogDate": "20181227163338",
+    "dto": "no",
+    "service": "serviceImpl",
+    "entityTableName": "carro",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pager",
+    "microserviceName": "oficina",
+    "searchEngine": "elasticsearch"
+}

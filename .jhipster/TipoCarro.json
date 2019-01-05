@@ -1,0 +1,22 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "codigo",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "descricao",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20181227163750",
+    "dto": "no",
+    "service": "serviceImpl",
+    "entityTableName": "tipo_carro",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pager",
+    "microserviceName": "oficina",
+    "searchEngine": "elasticsearch"
+}
